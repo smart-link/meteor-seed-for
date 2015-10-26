@@ -1,0 +1,32 @@
+@require '.includes'
+@import 'nib'
+
+@font-face
+  font-family 'Noto Sans'
+  font-style normal
+  font-weight normal
+  src url('/fonts/NotoSans-Regular.ttf') format('truetype')
+
+@font-face
+  font-family 'Noto Sans'
+  font-style normal
+  font-weight 600
+  src url('/fonts/NotoSans-Bold.ttf') format('truetype')
+
+html
+  box-sizing border-box
+  background-color color-background
+
+*,
+*:before,
+*:after
+  box-sizing inherit
+
+body
+  background-color color-background
+  color color-text
+  font-family font-family
+
+a
+  color inherit
+  text-decoration none
